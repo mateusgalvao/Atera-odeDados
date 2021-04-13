@@ -3,7 +3,7 @@ const express =require("express");
 const app = express();
 
 app.get("/", function(req, res){
-    res.send("Gerenciandor de estoque1");
+    res.send("Gerenciandor");
 })
 app.get("/contato", function(req, res){
     res.send("Página de contato");
